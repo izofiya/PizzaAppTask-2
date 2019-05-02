@@ -1,0 +1,34 @@
+body {
+  font-family: cursive;
+  background: url(https://st.depositphotos.com/3470617/4920/v/950/depositphotos_49203401-stock-illustration-pizza-background.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.pLoading {
+  text-align: center;
+  font-size: 40px;
+}
+.green {
+  color: #24ef35;
+}
+.buttonPay {
+  background-color: lightskyblue;
+  border: 1px solid black;
+  border-radius: 20%;
+  font-weight: bold;
+  font-size: 20px;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+tfoot {
+  font-weight: bold;
+  font-size: 35px;
+}
+table {
+  margin-top: 30px;
+  background-color: navajowhite;
+}
