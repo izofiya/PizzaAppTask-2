@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/izofiya/PizzaAppTask-2/precache-manifest.3b89e0ff03868610b0ec62b40a1b34c4.js"
+  "/PizzaAppTask-2/precache-manifest.e17f4718217244ed52fa6351a5ecbb7d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/izofiya/PizzaAppTask-2/index.html", {
+workbox.routing.registerNavigationRoute("/PizzaAppTask-2/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
